@@ -1,2 +1,6 @@
-package PACKAGE_NAME;public class Meats {
+public class Meats extends Products{
+
+    public Meats(String productName, int price) {
+        super(productName, price);
+    }
 }

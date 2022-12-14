@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class Drinks {
+public class Drinks extends Products{
+    public Drinks(String productName, int price) {
+        super(productName, price);
+    }
 }
